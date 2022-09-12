@@ -25,6 +25,7 @@ map("n", "t", ":TodoTelescope<CR>", { silent = true, noremap = true })
 keymap.q = { ":q<CR>", "exit buffer" }
 keymap.w = { ":w<CR>", "write buffer to file" }
 
+
 local explorer_key = require("core.keymaps.explorer")
 local kitty_key = require("core.keymaps.kitty")
 
